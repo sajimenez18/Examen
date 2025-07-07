@@ -1,0 +1,22 @@
+.Contenedor {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: gray;
+    align-items: center;
+}
+.H {
+    width: 95%;
+    height: 150px;
+    margin-left: 10px;
+    border-left: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.H h3, p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
